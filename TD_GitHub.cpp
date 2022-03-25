@@ -41,7 +41,7 @@ bool estPair(int nb)
 int sommeNombre(int nb)
 {
 	int resultat=0;
-	for(i=nb; i>0;i--)
+	for(int i=nb; i>0;i--)
 	{
 		resultat+=i;
 	}
