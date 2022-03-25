@@ -51,7 +51,7 @@ int sommeNombre(int nb)
 float salaireNet(int salaire)
 {
 	float resultat=0;
-	resultat = salaire*0.77
+	resultat = salaire*0.77;
 	return resultat;
 }
 
