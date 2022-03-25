@@ -61,9 +61,9 @@ float reduction(float prix, float reduc)
 
 int nombreMedian(int a, int b, int c)
 {
-	if (a>=b && a<=c)
+	if ((a>=b && a<=c) || (a>=c && a<=b))
 		return a;
-	else if (b>=a && b<=c)
+	else if ((b>=a && b<=c) || (b>=c && b<=a))
 		return b;
 	else
 		return c;
